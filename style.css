@@ -1,0 +1,60 @@
+*{ margin:0; padding:0 }
+
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header-option { color: lightgray; }
+
+.foods {
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:20px;
+}
+
+.card{
+    border:1px solid black;
+    text-align: center;
+    width:200px;
+}
+
+.card img {
+    width:200px;
+    height:400px;
+    object-fit: cover;
+}
+
+.card button{ 
+    background-color: black;
+    color: white;
+    border:none;
+    padding:10px 20px;
+    margin:10px 0;
+}
+
+.contact{
+    background:black;
+    color: white;
+    text-align:center;
+    padding:10px;
+}
+
+.contact-heading{ font-size: 30px;}
+
+input{
+    display:inline-block;
+    margin:5px auto;
+    padding:5px;
+    width:200px;
+}
+.submit{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 200px;
+    padding-right:200px;
+    background-color: yellow;
+}
