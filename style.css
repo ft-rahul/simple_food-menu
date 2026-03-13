@@ -36,6 +36,10 @@
     margin:10px 0;
 }
 
+.card button:hover{
+    background-color: lightcoral;
+}
+
 .contact{
     background:black;
     color: white;
